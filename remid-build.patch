@@ -1,0 +1,12 @@
+diff --git a/src/reMID_lv2.c b/src/reMID_lv2.c
+index 4d79082..49142a1 100644
+--- a/src/reMID_lv2.c
++++ b/src/reMID_lv2.c
+@@ -1,6 +1,7 @@
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
++#define __USE_XOPEN_EXTENDED
+ #include <unistd.h>
+ #include <math.h>
+ 
